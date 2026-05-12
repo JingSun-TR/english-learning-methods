@@ -1,0 +1,147 @@
+{% extends "base.html" %}
+
+{% block title %}{{ site.site_title }}{% endblock %}
+
+{% block content %}
+
+<!-- Hero -->
+<section class="hero">
+  <div class="hero-inner">
+    <h1>📚 英语学习最佳方法</h1>
+    <p>全网最全面的科学英语学习方法汇总。涵盖 18 种经过验证的学习方法，从可理解输入到间隔重复，从影子跟读到沉浸式学习。基于语言学、认知科学和二语习得研究。</p>
+    <div class="hero-stats">
+      <div class="hero-stat">
+        <span class="hero-stat-number">{{ methods|length }}</span>
+        <span class="hero-stat-label">科学方法</span>
+      </div>
+      <div class="hero-stat">
+        <span class="hero-stat-number">{{ categories|length }}</span>
+        <span class="hero-stat-label">学习流派</span>
+      </div>
+      <div class="hero-stat">
+        <span class="hero-stat-number">18</span>
+        <span class="hero-stat-label">年+研究积淀</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<main class="main">
+  {% if page == 'skill' %}
+  <!-- Filtered view -->
+  <h2 class="section-title">{{ filter_title }}</h2>
+  <p class="section-desc">{{ filter_desc }}</p>
+  {% else %}
+  <!-- Full view with filters -->
+  <h2 class="section-title">全部学习方法</h2>
+  <p class="section-desc">按流派筛选，找到最适合你的英语学习路径</p>
+  
+  <div class="filters">
+    <button class="filter-btn active" data-filter="all">全部</button>
+    {% for cat in categories %}
+    <button class="filter-btn" data-filter="{{ cat.id }}">{{ cat.name_zh }}{{ cat.name_en }}</button>
+    {% endfor %}
+  </div>
+  {% endif %}
+
+  <!-- Method Grid -->
+  <div class="method-grid">
+    {% for method in methods %}
+    <a href="methods/{{ method.id }}.html" class="method-card" data-category="{{ method.category }}">
+      <div class="card-header">
+        <div>
+          <div class="card-title">{{ method.name_zh }}</div>
+          <div class="card-name-en">{{ method.name_en }}</div>
+        </div>
+        <div class="card-stars">{{ method.science_level }}</div>
+      </div>
+      <div class="card-body">{{ method.core_concept_zh[:100] }}{% if method.core_concept_zh|length > 100 %}...{% endif %}</div>
+      <div class="card-tags">
+        {% for skill in method.best_for %}
+        <span class="tag tag-skill">{{ skill }}</span>
+        {% endfor %}
+        <span class="tag tag-difficulty">{{ method.difficulty_level }}</span>
+        <span class="tag tag-category">
+          {% for cat in categories %}{% if cat.id == method.category %}{{ cat.name_zh }}{% endif %}{% endfor %}
+        </span>
+      </div>
+      <div class="card-footer">
+        <span class="card-time">⏱ {{ method.time_commitment }}</span>
+        <span style="font-size:0.75rem;color:var(--link)">查看详情 →</span>
+      </div>
+    </a>
+    {% endfor %}
+  </div>
+
+  {% if page != 'skill' %}
+  <!-- Quick Guide -->
+  <div class="quick-guide">
+    <h3>🗺 快速推荐</h3>
+    <div class="quick-levels">
+      <div class="quick-level">
+        <h4>🟢 初学者推荐</h4>
+        <ul>
+          {% for id in quick_guide.beginner %}
+          {% for m in methods %}{% if m.id == id %}
+          <li><a href="methods/{{ m.id }}.html">{{ m.name_zh }}</a></li>
+          {% endif %}{% endfor %}
+          {% endfor %}
+        </ul>
+      </div>
+      <div class="quick-level">
+        <h4>🟡 中级者推荐</h4>
+        <ul>
+          {% for id in quick_guide.intermediate %}
+          {% for m in methods %}{% if m.id == id %}
+          <li><a href="methods/{{ m.id }}.html">{{ m.name_zh }}</a></li>
+          {% endif %}{% endfor %}
+          {% endfor %}
+        </ul>
+      </div>
+      <div class="quick-level">
+        <h4>🔴 高级者推荐</h4>
+        <ul>
+          {% for id in quick_guide.advanced %}
+          {% for m in methods %}{% if m.id == id %}
+          <li><a href="methods/{{ m.id }}.html">{{ m.name_zh }}</a></li>
+          {% endif %}{% endfor %}
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+    
+    <div class="quick-skills">
+      {% for skill_en, skill_zh in SKILL_MAP.items() %}
+      <div class="quick-skill">
+        <h5>{{ skill_zh }}</h5>
+        {% for id in quick_guide.by_skill.get(skill_en, [])[:3] %}
+        {% for m in methods %}{% if m.id == id %}
+        <a href="methods/{{ m.id }}.html">{{ m.name_zh }}</a>
+        {% endif %}{% endfor %}
+        {% endfor %}
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+  {% endif %}
+</main>
+
+<script>
+// Simple client-side filtering
+document.querySelectorAll('.filter-btn').forEach(btn => {
+  btn.addEventListener('click', function() {
+    document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+    this.classList.add('active');
+    const filter = this.dataset.filter;
+    document.querySelectorAll('.method-card').forEach(card => {
+      if (filter === 'all' || card.dataset.category === filter) {
+        card.style.display = '';
+      } else {
+        card.style.display = 'none';
+      }
+    });
+  });
+});
+</script>
+
+{% endblock %}

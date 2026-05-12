@@ -1,0 +1,475 @@
+{
+  "site_title": "英语学习最佳方法 — English Learning Methods",
+  "site_description": "全网最全面的科学英语学习方法汇总。涵盖18种经过验证的学习方法，从可理解输入到间隔重复，从影子跟读到沉浸式学习。",
+  "methods": [
+    {
+      "id": "comprehensible-input",
+      "name_en": "Comprehensible Input Hypothesis",
+      "name_zh": "可理解输入假说",
+      "core_concept_zh": "通过接触大量略高于当前水平（i+1）的可理解语言材料，像婴儿学母语一样自然习得英语。不需要刻意背单词和语法。",
+      "detailed_description_zh": "这是语言学家 Stephen Krashen 在 1980 年代提出的核心理论。他认为语言习得只有一种途径：理解信息。当你阅读或聆听你能理解 90%-95% 的内容时，大脑会自动吸收剩余的 5%-10%。关键不是学习语言，而是用语言来理解有趣的内容。Krashen 强调「情感过滤假说」——焦虑越低，习得效率越高。所以选择你真正感兴趣的材料至关重要。",
+      "how_to_practice_zh": "1) 用 LingQ 或 Readlang 找适合水平的文章；2) 每天看英文 YouTube 视频（开英文字幕）；3) 读分级读物（Graded Readers）；4) 听 ESL Pod / VOA慢速英语；5) 找到你真正感兴趣的英文内容（游戏、科技、美食等）",
+      "best_for": [
+        "听力",
+        "阅读",
+        "词汇"
+      ],
+      "difficulty_level": "初级至高级",
+      "time_commitment": "每天至少1小时输入",
+      "recommended_tools_zh": "LingQ, Easy English News, VOA慢速英语, ESL Pod, Readlang, Graded Readers, English YouTube",
+      "pros_zh": "无痛学习，符合自然语言习得过程，培养语感和直觉式的语法能力",
+      "cons_zh": "纯输入可能导致口语输出延迟（开口慢）；需要极大量输入（数千小时）才能见效",
+      "famous_practitioners_zh": "Stephen Krashen 本人, Steve Kaufmann (LingQ 创始人，会说20种语言)",
+      "science_level": "★★★★★",
+      "category": "输入派"
+    },
+    {
+      "id": "spaced-repetition",
+      "name_en": "Spaced Repetition System (SRS)",
+      "name_zh": "间隔重复系统",
+      "core_concept_zh": "利用艾宾浩斯遗忘曲线原理，在即将遗忘的临界点复习，用最少的时间实现永久记忆。Anki 是黄金标准工具。",
+      "detailed_description_zh": "德国心理学家 Hermann Ebbinghaus 在 1885 年发现，人类的遗忘遵循「先快后慢」的规律。间隔重复系统（SRS）利用这一规律，在你即将遗忘某个知识点之前自动安排复习。SuperMemo 的 Piotr Woźniak 在 1980 年代首次将这一原理算法化，后续的 Anki 将其普及。现代研究表明，主动回忆（Active Recall）+ 间隔重复是最高效的记忆方式，远胜于被动重复阅读。",
+      "how_to_practice_zh": "1) 下载 Anki 并创建自己的单词卡片（不要用别人的牌组！）；2) 每张卡片正面写英文单词+例句，背面写中文释义；3) 每天花 15-20 分钟刷 Anki；4) 优先学习高频词汇（前 3000 词覆盖 90% 日常对话）；5) 结合图片和发音增强记忆",
+      "best_for": [
+        "词汇"
+      ],
+      "difficulty_level": "初级至高级",
+      "time_commitment": "每天15-30分钟",
+      "recommended_tools_zh": "Anki (桌面版+手机版), AnkiWeb, SuperMemo, Quizlet, Memrise",
+      "pros_zh": "科学验证最高效的记忆方法，投入产出比极高，可量化追踪进度",
+      "cons_zh": "比较枯燥，脱离上下文学习词汇，需要自律和坚持",
+      "famous_practitioners_zh": "Gabriel Wyner (Fluent Forever 作者), Piotr Woźniak (SuperMemo 创始人)",
+      "science_level": "★★★★★",
+      "category": "记忆派"
+    },
+    {
+      "id": "shadowing",
+      "name_en": "Shadowing Technique",
+      "name_zh": "影子跟读法",
+      "core_concept_zh": "像影子一样紧跟着原声模仿发音、语调和节奏，通过反复跟读训练口肌记忆和听力敏感度。",
+      "detailed_description_zh": "影子跟读法由美国语言学家 Alexander Arguelles 博士推广。具体做法是：一边听音频，一边几乎同步地大声模仿跟读，像影子一样紧跟原声。这不仅仅是「模仿」，而是一种全方位训练——你的耳朵在听、嘴巴在说、大脑在同步处理。研究表明，影子跟读能显著提升语音感知能力、口语流利度和听力理解速度。日本的英语教育界大量使用此方法，称之为「シャドーイング」。",
+      "how_to_practice_zh": "1) 选一段 3-5 分钟的音频（播客/TED/新闻）；2) 先盲听一遍理解大意；3) 看文本跟读一遍；4) 不看文本影子跟读（边听边同步说）；5) 录下自己的声音对比原声；6) 每天 10-15 分钟，坚持 30 天见效果",
+      "best_for": [
+        "口语",
+        "听力",
+        "发音"
+      ],
+      "difficulty_level": "中级",
+      "time_commitment": "每天10-15分钟",
+      "recommended_tools_zh": "TED Talks, NPR podcasts, English Pod, Audacity (录音), Speechling, Elsa Speak",
+      "pros_zh": "同时训练听力和口语，改善发音和语调极快，随时随地可练习",
+      "cons_zh": "初学者较难上手（需要一定听力基础），重复可能枯燥，不适合安静环境",
+      "famous_practitioners_zh": "Alexander Arguelles, 日本英语教育界广泛使用, Matt vs Japan (YouTube)",
+      "science_level": "★★★★☆",
+      "category": "口耳派"
+    },
+    {
+      "id": "extensive-reading",
+      "name_en": "Extensive Reading",
+      "name_zh": "泛读法",
+      "core_concept_zh": "大量阅读自己能轻松理解（98%+）的英文材料，不求精读每个词，而是享受阅读过程，通过海量输入自然提升语感和词汇量。",
+      "detailed_description_zh": "泛读法最早由 Harold Palmer 在 1920 年代提出，后经 Richard Day 和 Julian Bamford 系统化。核心理念是「Read, read, and read some more」。与精读（Intensive Reading）不同，泛读强调：选择适合自己的书（一页生词不超过 2-3 个）、快速阅读、不求甚解、享受乐趣。Stephen Krashen 的研究表明，泛读比传统语法教学更有效地提升阅读能力、写作水平和词汇量。一个核心发现是：通过泛读学到的词汇比通过刻意背诵更加持久。",
+      "how_to_practice_zh": "1) 从分级读物（Graded Readers）开始，如 Oxford Bookworms, Penguin Readers；2) 读你真正感兴趣的内容（小说、漫画、科普）；3) 不查字典！猜词义即可；4) 目标是「量的积累」——每周读一本薄书；5) 逐步过渡到原版书和新闻杂志",
+      "best_for": [
+        "阅读",
+        "词汇",
+        "写作"
+      ],
+      "difficulty_level": "初级至高级",
+      "time_commitment": "每天20-30分钟",
+      "recommended_tools_zh": "Oxford Bookworms, Penguin Readers, Kindle (内置词典), Readlang, Newsela, English Short Stories",
+      "pros_zh": "最自然获得语感的方式，附带大量词汇增长，不枯燥，可终身受益",
+      "cons_zh": "见效慢（需要大量阅读积累），对口语和听力帮助有限",
+      "famous_practitioners_zh": "Stephen Krashen, Richard Day, Rob Waring (Extensive Reading Foundation)",
+      "science_level": "★★★★★",
+      "category": "输入派"
+    },
+    {
+      "id": "immersion",
+      "name_en": "Language Immersion / AJATT",
+      "name_zh": "沉浸式学习 / AJATT",
+      "core_concept_zh": "把自己完全浸泡在英语环境中——听英语、看英语、读英语、想英语。AJATT 的核心理念：让英语成为你生活的默认语言。",
+      "detailed_description_zh": "AJATT（All Japanese All The Time）由 Khatzumoto 在 2006 年创立，最初用于学日语，后来被广泛改编用于英语学习。核心思想很简单：让你的环境变成英语环境。把你的手机、电脑、社交媒体都切换成英文；只听英文播客和音乐；只读英文新闻和书籍；创造「假的英语环境」。这种方法的后继发展就是 Refold 方法（由 Matt vs Japan 和 Ethan 创立），更加系统化。研究表明，沉浸式环境能显著缩短语言习得时间。",
+      "how_to_practice_zh": "1) 将手机/电脑系统语言改为英文；2) 订阅英文 YouTube 频道和播客；3) 通勤时间只听英文内容；4) 用英文写日记和待办事项；5) 加入 English-only 的 Discord 或 Reddit 社区；6) 找一个语言交换伙伴（language exchange）",
+      "best_for": [
+        "听力",
+        "阅读",
+        "口语"
+      ],
+      "difficulty_level": "中级至高级",
+      "time_commitment": "尽可能多地接触英语，理想状态每天 3-5 小时",
+      "recommended_tools_zh": "YouTube (英文), Reddit, Discord, HelloTalk, Tandem, Netflix (英文配音+字幕)",
+      "pros_zh": "最接近母语习得的体验，全方位提升，培养用英语思考的习惯",
+      "cons_zh": "需要极强的自律和大量时间投入，初学者直接沉浸可能效率低下",
+      "famous_practitioners_zh": "Khatzumoto (AJATT 创始人), Matt vs Japan, Steve Kaufmann, 众多 polyglots",
+      "science_level": "★★★★☆",
+      "category": "输入派"
+    },
+    {
+      "id": "refold",
+      "name_en": "Refold Method",
+      "name_zh": "Refold 方法",
+      "core_concept_zh": "AJATT 的现代化版本。分阶段系统学习：先大量输入建立语感，再逐步过渡到输出。强调「可理解性」而非盲目沉浸。",
+      "detailed_description_zh": "Refold 由 Matt vs Japan 和 Ethan 在 2020 年创建，是对 AJATT 的改进和系统化。它将语言学习分为清晰的阶段：Stage 1 - 打好基础（学基础词汇和语法）；Stage 2 - 大量理解性输入（阅读+听力）；Stage 3 - 输出训练（口语+写作）；Stage 4 - 精进提升。Refold 比 AJATT 更务实，承认初期需要一些刻意学习，并强调选择「可理解的」输入材料而非盲目沉浸。它也借鉴了 Krashen 的 i+1 理论。",
+      "how_to_practice_zh": "阶段1: 用 Anki 学最常用 1000 词 + 基础语法；阶段2: 每天 1-2 小时阅读和听力输入（i+1 级别）；阶段3: 开始输出 — 写日记、找语伴、自言自语；阶段4: 精细化发音、学习高级表达。用 Refold 提供的免费指南和社区资源。",
+      "best_for": [
+        "听力",
+        "阅读",
+        "口语",
+        "词汇"
+      ],
+      "difficulty_level": "初级至高级",
+      "time_commitment": "每天1-3小时，持续1-2年",
+      "recommended_tools_zh": "Refold 官网指南, Anki, LingQ, Netflix + Language Reactor, YouTube, Discord 社群",
+      "pros_zh": "结构清晰有路线图，兼顾基础和沉浸，社群活跃，免费资源丰富",
+      "cons_zh": "仍需要大量时间，初期进度可能缓慢，过于依赖 Anki 让部分人反感",
+      "famous_practitioners_zh": "Matt vs Japan (YouTube), Ethan (Refold 联合创始人), 大量 Reddit/Discord 用户",
+      "science_level": "★★★★☆",
+      "category": "综合派"
+    },
+    {
+      "id": "sentence-mining",
+      "name_en": "Sentence Mining",
+      "name_zh": "句子挖矿法",
+      "core_concept_zh": "不从单词书学单词，而是从真实的语境中「挖」出句子。每个新词配一个真实例句，在语境中记忆。",
+      "detailed_description_zh": "句子挖矿法由 AJATT 社区和 Matt vs Japan 推广，后经 Refold 系统化。核心理念：不要记忆孤立的单词，而是记忆包含该单词的完整句子。这样的话，你同时学会了：单词的意思、用法、搭配、语感和语法。每当你阅读或听英语时遇到一个不认识的词，就把整个句子「挖」下来存入 Anki。卡片正面是句子（目标词高亮），背面是释义和发音。研究表明，语境化学习比孤立记忆的记忆保持率高 2-3 倍。",
+      "how_to_practice_zh": "1) 在 Netflix/YouTube/阅读中遇到不认识的词；2) 用 Anki 创建卡片：正面 = 完整句子（生词高亮），背面 = 中文释义+发音；3) 优先挖掘 i+1 句子（只含 1 个生词）；4) 每天挖 5-10 个句子；5) 结合 SRS 复习",
+      "best_for": [
+        "词汇",
+        "阅读",
+        "语法"
+      ],
+      "difficulty_level": "中级至高级",
+      "time_commitment": "每天20-30分钟（挖矿+复习）",
+      "recommended_tools_zh": "Anki, Language Reactor (Netflix 插件), Yomichan/Rikaikun (浏览器划词), Migaku, LingQ",
+      "pros_zh": "学到的是活的语言、真实用法，同时提升语感和词汇量",
+      "cons_zh": "比背单词表慢，需要已有一定基础，制卡过程可能耗时",
+      "famous_practitioners_zh": "Matt vs Japan, Khatzumoto, OhTalkWho (YouTube), BritvsJapan",
+      "science_level": "★★★★☆",
+      "category": "记忆派"
+    },
+    {
+      "id": "output-hypothesis",
+      "name_en": "Output Hypothesis (Pushed Output)",
+      "name_zh": "输出假说（强制输出）",
+      "core_concept_zh": "光输入不够，必须强迫自己开口说、动手写。只有当你尝试输出却发现说不出来时，大脑才会真正注意到差距并学习。",
+      "detailed_description_zh": "Merrill Swain 在 1985 年提出「输出假说」，挑战 Krashen 的「纯输入论」。Swain 在加拿大法语沉浸式教学中发现，虽然学生接受了大量法语输入，但他们的口语和写作仍然存在大量错误。她提出，输出的作用不仅是练习，更是「注意差距」——当你尝试表达却不会说时，你才真正意识到自己缺什么。输出还有假设检验功能：你说了一句话，看对方是否理解、如何反应，从而不断调整。最新研究支持「输入+输出」结合效果最佳。",
+      "how_to_practice_zh": "1) 每天写英文日记（从 3 句开始）；2) 在 HelloTalk/Tandem 上找语伴练习口语；3) 用 Elsa Speak 做发音练习；4) 在 Reddit/Quora 上用英文回答问题；5) 对自己复述刚看过的视频/文章；6) 录下自己说话并回听修正",
+      "best_for": [
+        "口语",
+        "写作"
+      ],
+      "difficulty_level": "中级至高级",
+      "time_commitment": "每天15-30分钟",
+      "recommended_tools_zh": "HelloTalk, Tandem, Elsa Speak, iTalki, Journaly, r/WriteStreakEN (Reddit), Speaky",
+      "pros_zh": "直接提升最难的输出技能，让你真正能用英语交流",
+      "cons_zh": "初期会很痛苦（张口忘词），需要克服心理障碍，需要对方配合",
+      "famous_practitioners_zh": "Merrill Swain, 各种语言交换社区的用户",
+      "science_level": "★★★★★",
+      "category": "输出派"
+    },
+    {
+      "id": "tprs",
+      "name_en": "Teaching Proficiency through Reading and Storytelling (TPRS)",
+      "name_zh": "TPRS 故事教学法",
+      "core_concept_zh": "通过有趣的故事和互动问答来学习语言。老师用简单的英语反复提问，学生用肢体和简短回答回应，在故事中自然习得。",
+      "detailed_description_zh": "TPRS 由 Blaine Ray 在 1990 年代发明，结合了 Krashen 的输入假说和 James Asher 的 TPR（全身反应法）。课堂上老师讲述一个故事，不断用「循环提问」来确保学生理解了每个部分。学生不需要背诵，只需听懂并回应。关键技巧是「个人化」——把故事中的角色换成学生的名字，增加趣味性。TPRS 在美国的外语教学界有大量追随者，研究显示其在词汇习得和口语流利度方面效果显著。",
+      "how_to_practice_zh": "1) 找 TPRS 视频/课程（YouTube 上有很多）；2) 自学者可以用 Comprehensible Input 的 YouTube 频道（如 Dreaming Spanish 的英文版）；3) 用 ChatGPT 创建个性化英语故事；4) 看英文故事时和自己对话：「为什么他这样做？」「接下来会发生什么？」",
+      "best_for": [
+        "听力",
+        "口语",
+        "词汇"
+      ],
+      "difficulty_level": "初级至中级",
+      "time_commitment": "每次30-60分钟（课堂式学习）",
+      "recommended_tools_zh": "YouTube TPRS 频道, Blaine Ray's books, Story Listening 资源, ChatGPT, Dreaming English",
+      "pros_zh": "有趣不枯燥，零基础可用，降低学习焦虑，自然习得语法",
+      "cons_zh": "自学者较难实施（最好有老师），进阶后需要补充其他方法",
+      "famous_practitioners_zh": "Blaine Ray (创始人), Ben Slavic, Mike Peto",
+      "science_level": "★★★★☆",
+      "category": "综合派"
+    },
+    {
+      "id": "pimsleur",
+      "name_en": "Pimsleur Method",
+      "name_zh": "Pimsleur 音频法",
+      "core_concept_zh": "通过精心设计的音频课程，利用「渐进式间隔回忆」原理，在对话中自然习得核心词汇和句型。不需要书本，只需听和回应。",
+      "detailed_description_zh": "Paul Pimsleur 博士在 1960 年代开发的音频语言学习系统。核心原理是「渐进式间隔回忆」——每个新学的词或句型会在越来越长的时间间隔后被再次提问，直到固化在长期记忆中。每次课 30 分钟，全程音频，你只需听提示并做出回应。Pimsleur 课程特别注重发音和核心句型，每个级别覆盖约 500 个词汇，但通过大量重复确保你真正「拥有」这些词。研究证实其在口语和听力方面的有效性，尤其是对初学者。",
+      "how_to_practice_zh": "1) 每天一节 Pimsleur 课（30分钟）；2) 开车、做家务、散步时听；3) 大声回应每一个提示（不要默念！）；4) 完成一个级别（30节课）后复习一遍再进入下一级；5) 配合其他方法补充阅读和词汇",
+      "best_for": [
+        "口语",
+        "听力",
+        "发音"
+      ],
+      "difficulty_level": "初级至中级",
+      "time_commitment": "每天30分钟",
+      "recommended_tools_zh": "Pimsleur App, Audible (Pimsleur 音频书), 图书馆免费借阅",
+      "pros_zh": "完全无痛（只需听和说），发音培训出色，适合通勤/碎片时间",
+      "cons_zh": "词汇量有限（每级仅约 500 词），相对昂贵，缺乏阅读和写作训练",
+      "famous_practitioners_zh": "Paul Pimsleur 博士, 美国外交官/军方使用者",
+      "science_level": "★★★★☆",
+      "category": "口耳派"
+    },
+    {
+      "id": "michel-thomas",
+      "name_en": "Michel Thomas Method",
+      "name_zh": "Michel Thomas 方法",
+      "core_concept_zh": "「无压力学习法」——不需要背诵、不需要作业、不需要记忆。老师引导你「发现」语言的规律，用你已知的词汇构建新句子。",
+      "detailed_description_zh": "Michel Thomas 是二战幸存者，后来成为传奇语言教师（教过好莱坞明星和政要）。他的方法极其独特：课堂上有一个老师和两个学生（你作为第三个「虚拟学生」旁听），老师引导学生「构建」句子而非「记忆」句子。他从不让学生感到压力，反复强调「责任在老师，不在你」。他会利用英语和荷兰语/法语/德语等语言的同源词帮你快速扩展词汇。核心信念是：语言学习应该像搭积木一样自然。",
+      "how_to_practice_zh": "1) 获取 Michel Thomas English 课程（音频）；2) 跟随课程「做第三个学生」——在老师提问时暂停并回答；3) 不要做笔记！不要刻意记忆！信条是让大脑自然工作；4) 完成基础+进阶课程（约 16-20 小时）",
+      "best_for": [
+        "口语",
+        "语法",
+        "词汇"
+      ],
+      "difficulty_level": "初级至中级",
+      "time_commitment": "每节课60-90分钟，共约20小时",
+      "recommended_tools_zh": "Michel Thomas Method 官方音频课程, Audible, 图书馆",
+      "pros_zh": "极低压力，不需要课外复习，短时间内构建语言框架，适合害怕学语言的成人",
+      "cons_zh": "Michel Thomas 本人的英语课程不太常见（主要是法语/西班牙语等），词汇量有限，不训练听力理解",
+      "famous_practitioners_zh": "Michel Thomas 本人, 好莱坞明星（Woody Allen, Emma Thompson 等）",
+      "science_level": "★★★☆☆",
+      "category": "综合派"
+    },
+    {
+      "id": "goldlist",
+      "name_en": "The Goldlist Method",
+      "name_zh": "Goldlist 金榜记忆法",
+      "core_concept_zh": "用手写的方式将单词列表写下来，每两周「蒸馏」一次——记住的词剔除，没记住的重新写。利用大脑的潜意识长期记忆机制。",
+      "detailed_description_zh": "Goldlist 方法由 David James（笔名 Uncle Davey）在 2010 年左右发明，发表在 polyglot 论坛上。它反对 SRS 的「主动回忆」理念，转而依赖「潜意识长期记忆」。具体操作：在一个笔记本上写下 25 个单词（左列英文，右列中文），写完后放在一边至少两周不碰。两周后回来检查，你会发现大约 30% 的词汇自然进入了长期记忆。把记住的划掉，剩下的 70% 重新写成新的 25 词列表（「蒸馏」），再放两周。如此反复直到所有词被记住。",
+      "how_to_practice_zh": "1) 准备一个笔记本，每页写 25 个单词（英文+中文）；2) 写下日期，放在一边两周不看；3) 两周后回来蒸馏——记住的划掉；4) 未记住的重新写成新列表；5) 重复直到所有词被记住。每天可以做 2-4 个列表（50-100 词）",
+      "best_for": [
+        "词汇"
+      ],
+      "difficulty_level": "初级至高级",
+      "time_commitment": "每天20分钟（写列表），每两周10分钟（蒸馏）",
+      "recommended_tools_zh": "实体笔记本+笔（必须是手写！）",
+      "pros_zh": "不需要手机和 App，手写加强记忆，压力极低，适合「数字排毒」",
+      "cons_zh": "非常慢（两周一个周期），缺乏「主动回忆」的科学支撑，对口语没有直接帮助",
+      "famous_practitioners_zh": "David James (Uncle Davey), 多位 polyglot 论坛用户",
+      "science_level": "★★☆☆☆",
+      "category": "记忆派"
+    },
+    {
+      "id": "scriptorium",
+      "name_en": "Shadowing + Scriptorium",
+      "name_zh": "影子跟读 + 书写室",
+      "core_concept_zh": "将影子跟读和手写结合：先跟读，再逐字抄写，同时大声念出每个词。用多重感官强化语音、拼写和语法的联系。",
+      "detailed_description_zh": "Scriptorium 是 Alexander Arguelles 教授影子跟读的进阶技法。如果说影子跟读是「口耳训练」，Scriptorium 就是「全感官训练」。做法：选一段你已经影子跟读过的文本，慢慢地、工整地逐词抄写，同时大声读出正在写的每一个词。这迫使你的大脑以极慢的速度处理每一处语法细节、拼写和语音。Arguelles 说这是他学语言最有力量的单一练习。虽然很累（每次建议不超过 15 分钟），但效果惊人。",
+      "how_to_practice_zh": "1) 选一段已影子跟读过 5 次以上的文本；2) 缓慢手写每个单词，同时大声朗读；3) 写完一句后，再朗读整句一次；4) 注意拼写、语法结构（词尾变化、介词搭配）；5) 每次不超过 15 分钟（极耗脑力）",
+      "best_for": [
+        "写作",
+        "语法",
+        "发音",
+        "拼写"
+      ],
+      "difficulty_level": "中级至高级",
+      "time_commitment": "每次10-15分钟",
+      "recommended_tools_zh": "笔和纸, 高质量英文文本 (The Economist, 小说), 原声音频",
+      "pros_zh": "极深度处理语言结构，同时强化听说读写拼，手写促进记忆",
+      "cons_zh": "极耗脑力难以长时间坚持，需要先有影子跟读基础",
+      "famous_practitioners_zh": "Alexander Arguelles",
+      "science_level": "★★★☆☆",
+      "category": "口耳派"
+    },
+    {
+      "id": "fluent-forever",
+      "name_en": "Fluent Forever Method",
+      "name_zh": "流利永存法",
+      "core_concept_zh": "用图像代替翻译来记忆单词（不用母语！），结合间隔重复系统，从第一天就开始练发音，建造你的「语言记忆宫殿」。",
+      "detailed_description_zh": "Gabriel Wyner 在《Fluent Forever》一书中提出了一套完整的语言学习系统，结合了认知科学的多项发现。核心原则：1) 词汇学习用图片不用翻译（避免母语干扰）；2) 从第一天就练发音（建立正确的声音表征）；3) 用 Anki 管理间隔重复；4) 先学 625 个最高频词汇（用图片）；5) 然后学语法（同样用 Anki + 填空卡）。Wyner 特别强调发音训练的重要性——如果你听不出两个音的差别，你就永远发不准。",
+      "how_to_practice_zh": "1) 买《Fluent Forever》书或 App；2) 用 Google Images 找图片代替中文释义做 Anki 卡片；3) 先用 Forvo/YouGlish 学会 625 词的纯正发音；4) 用 minimal pair 训练辨别相似音素（ship vs sheep）；5) 用 Anki 继续学习语法和句子",
+      "best_for": [
+        "词汇",
+        "发音",
+        "语法"
+      ],
+      "difficulty_level": "初级至中级",
+      "time_commitment": "每天30-45分钟",
+      "recommended_tools_zh": "Fluent Forever App, Anki, Google Images, Forvo, YouGlish, Elsa Speak",
+      "pros_zh": "科学验证的方法组合，发音训练非常出色，词汇记忆高效",
+      "cons_zh": "制卡非常耗时，依赖 Anki 的纪律性，App 订阅费用",
+      "famous_practitioners_zh": "Gabriel Wyner (作者), 纽约时报畅销书",
+      "science_level": "★★★★★",
+      "category": "综合派"
+    },
+    {
+      "id": "lingq",
+      "name_en": "LingQ / Input-Based Learning",
+      "name_zh": "LingQ 输入法",
+      "core_concept_zh": "通过阅读和听力输入「浸泡」语言，遇到生词一键保存，系统自动追踪你的已知词汇量，用真实的文章和播客代替教科书。",
+      "detailed_description_zh": "LingQ 由会说 20 种语言的 Steve Kaufmann 创建，是 Krashen 输入假说的工业化实现。平台上有海量的真实语言内容（文章、播客、视频），你可以边读边听，点击任何生词即可查看释义并保存为「LingQ」（待学词汇），系统会高亮你所有学过的词。你的已知词汇量实时增长，给你强烈的进度感。Kaufmann 本人 70 岁开始学新语言，他的核心哲学是：享受过程，每天大量输入，不焦虑输出。",
+      "how_to_practice_zh": "1) 注册 LingQ 账号（免费版可用）；2) 每天在 LingQ 上阅读和听力 1-2 小时；3) 点击生词创建 LingQ（相当于 SRS 卡片）；4) 随着已知词汇量增长，解锁更难的内容；5) 别忘了 LingQ 也有写作批改和口语练习功能",
+      "best_for": [
+        "阅读",
+        "听力",
+        "词汇"
+      ],
+      "difficulty_level": "初级至高级",
+      "time_commitment": "每天1-2小时",
+      "recommended_tools_zh": "LingQ, Readlang（免费替代品）, Language Reactor",
+      "pros_zh": "海量真实内容，追踪进度有满足感，听说读写全覆盖",
+      "cons_zh": "付费订阅模式（免费版功能受限），UI 较陈旧，对口语训练不够深入",
+      "famous_practitioners_zh": "Steve Kaufmann (LingQ 联合创始人，会说20种语言)",
+      "science_level": "★★★★☆",
+      "category": "输入派"
+    },
+    {
+      "id": "antimoon",
+      "name_en": "Antimoon Method",
+      "name_zh": "Antimoon 方法",
+      "core_concept_zh": "两个波兰人自学英语达到母语水平的方法总结：疯狂输入 + 用英语做你本来就喜欢做的事。拒绝课堂、拒绝语法书、拒绝背单词表。",
+      "detailed_description_zh": "Antimoon 由波兰程序员 Tomasz P. Szynalski 和 Michal Ryszard Wojcik 在 1990 年代末创立，记录了他们在波兰自学英语达到接近母语水平的完整方法论。核心理念非常激进：扔掉语法书和单词表，用英语做你真正喜欢的事。如果你喜欢编程，就读英文技术文档；如果你喜欢游戏，就玩英文版。关键在于：1) 只接触你感兴趣的英文内容；2) 大量输入直到你能「凭感觉」判断对错；3) 用 SRS 补充高频词汇。他们的网站至今仍有大量优质免费内容。",
+      "how_to_practice_zh": "1) 把娱乐时间全部英语化（YouTube → 英文频道，Netflix → 英文节目）；2) 用 Anki 学习最常用的 3000 个词（按频率排序）；3) 每天大量阅读+听力输入（2+ 小时）；4) 不在初期强迫自己开口；5) 当你能毫不费力理解日常内容后，再开始练口语",
+      "best_for": [
+        "听力",
+        "阅读",
+        "口语"
+      ],
+      "difficulty_level": "初级至高级",
+      "time_commitment": "每天2-3小时",
+      "recommended_tools_zh": "Antimoon 网站（免费指南）, Anki, YouTube, Netflix, Kindle",
+      "pros_zh": "不需要上课，完全自学，用真正的兴趣驱动",
+      "cons_zh": "需要极强的自律，缺乏口语输出训练的结构",
+      "famous_practitioners_zh": "Tomasz P. Szynalski, Michal Ryszard Wojcik (创始人)",
+      "science_level": "★★★☆☆",
+      "category": "输入派"
+    },
+    {
+      "id": "fsi-dli",
+      "name_en": "FSI / DLI Method (Military Language Training)",
+      "name_zh": "FSI / 军方法",
+      "core_concept_zh": "美国外交学院（FSI）和国防语言学院（DLI）的全日制语言训练方法：高强度、结构化、以口语为核心目标。每天 5-6 小时，快速达到工作级流利度。",
+      "detailed_description_zh": "美国 Foreign Service Institute（外交学院）自 1940 年代起训练外交官，Defense Language Institute（国防语言学院）训练军事人员。他们的方法不是某个单一技巧，而是一套高强度训练体系：1) 小班教学（4-6 人）；2) 每天 5-6 小时面授 + 2-3 小时自学；3) 重口语，轻语法解释；4) 大量「操练」（drills）——句型替换、问答、角色扮演；5) 母语教师不断纠正。FSI 按语言难度分级，英语对于中文母语者约需 2200 课时达到「专业工作流利度」。自学改编版重在「高强度每日练习」和「句型操练」。",
+      "how_to_practice_zh": "1) 每天固定时间学习（模拟全日制节奏）；2) 用「句型操练」方法：将一个句型不断变换人称、时态、宾语进行练习；3) 大声朗读对话并录音对比；4) 找严格的语言伙伴纠正你的错误；5) 使用 FSI 公开的课程材料和音频",
+      "best_for": [
+        "口语",
+        "听力",
+        "语法"
+      ],
+      "difficulty_level": "各级别（但强度很大）",
+      "time_commitment": "每天3-5小时（高强度）",
+      "recommended_tools_zh": "FSI Language Courses (免费公开), DLI GLOSS, iTalki, Pimsleur",
+      "pros_zh": "达到流利度的最快路径之一，结构化且高效，口语为核心目标",
+      "cons_zh": "极高强度不适合业余学习者，比较枯燥（大量操练），不适合自学（最好有老师）",
+      "famous_practitioners_zh": "美国外交官, 军事语言学家, 各种「快速学语言」课程的灵感来源",
+      "science_level": "★★★★☆",
+      "category": "输出派"
+    },
+    {
+      "id": "i-plus-one",
+      "name_en": "i+1 Theory (Optimal Difficulty)",
+      "name_zh": "i+1 最优难度理论",
+      "core_concept_zh": "选择难度刚好比你当前水平「高一点」的学习材料——太简单无聊，太难沮丧。i 代表你现有水平，+1 代表刚好能学会的新内容。",
+      "detailed_description_zh": "i+1 是 Krashen 输入假说的核心概念，被几乎所有现代语言学习方法采纳。i = 你当前的语言水平（interlanguage），+1 = 刚好超出一点的难度。当材料是 i+1 时，你可以通过上下文推断生词含义（而不是查字典），大脑在无意识中完成习得。如果材料是 i+5（太难），你会因为听不懂而放弃；如果是 i+0（太简单），没有新信息可以习得。实际操作中，目标是找到「能理解 90%-95%」的材料。这个简单的原则是选择学习内容的黄金标准。",
+      "how_to_practice_zh": "1) 用「5 指法则」测试阅读材料：一页中生词超过 5 个 → 太难，少于 1 个 → 太简单；2) 听力材料：第一遍能听懂 80%+ 即为 i+1；3) 用 LingQ/Readlang 筛选合适难度；4) 分级读物按级别递进；5) 随着能力增长持续「升级」材料难度",
+      "best_for": [
+        "听力",
+        "阅读",
+        "词汇"
+      ],
+      "difficulty_level": "初级至高级",
+      "time_commitment": "作为一种选择原则而非独立方法",
+      "recommended_tools_zh": "LingQ (难度分级), Readlang, 分级读物 (Graded Readers), Newsela (按 Lexile 分级)",
+      "pros_zh": "最简单的效率原则，防止浪费时间，保持学习动力",
+      "cons_zh": "现实中难以精确量化「i」，找到大量 i+1 材料有难度",
+      "famous_practitioners_zh": "Stephen Krashen, 几乎所有现代语言教育者和 App",
+      "science_level": "★★★★★",
+      "category": "输入派"
+    }
+  ],
+  "categories": [
+    {
+      "id": "input",
+      "name_zh": "输入派",
+      "name_en": "Input-Based",
+      "description": "强调大量听力和阅读输入，认为语言是「吸收」而非「学习」的"
+    },
+    {
+      "id": "output",
+      "name_zh": "输出派",
+      "name_en": "Output-Based",
+      "description": "强调主动说和写，认为只有输出才能暴露并修复语言漏洞"
+    },
+    {
+      "id": "memory",
+      "name_zh": "记忆派",
+      "name_en": "Memory-Based",
+      "description": "利用认知科学原理高效记忆词汇和语法"
+    },
+    {
+      "id": "audio",
+      "name_zh": "口耳派",
+      "name_en": "Audio-Oral",
+      "description": "专注听力和发音训练，通过大量口耳练习建立语感"
+    },
+    {
+      "id": "integrated",
+      "name_zh": "综合派",
+      "name_en": "Integrated",
+      "description": "结合多种方法的系统化学习方案"
+    }
+  ],
+  "quick_guide": {
+    "beginner": [
+      "comprehensible-input",
+      "pimsleur",
+      "tprs",
+      "fluent-forever",
+      "i-plus-one"
+    ],
+    "intermediate": [
+      "spaced-repetition",
+      "shadowing",
+      "sentence-mining",
+      "extensive-reading",
+      "lingq"
+    ],
+    "advanced": [
+      "refold",
+      "immersion",
+      "output-hypothesis",
+      "scriptorium",
+      "antimoon"
+    ],
+    "by_skill": {
+      "listening": [
+        "comprehensible-input",
+        "immersion",
+        "shadowing",
+        "pimsleur",
+        "lingq"
+      ],
+      "speaking": [
+        "shadowing",
+        "output-hypothesis",
+        "pimsleur",
+        "fsi-dli",
+        "fluent-forever"
+      ],
+      "reading": [
+        "extensive-reading",
+        "comprehensible-input",
+        "sentence-mining",
+        "lingq",
+        "antimoon"
+      ],
+      "writing": [
+        "output-hypothesis",
+        "scriptorium",
+        "fsi-dli"
+      ],
+      "vocabulary": [
+        "spaced-repetition",
+        "sentence-mining",
+        "goldlist",
+        "fluent-forever"
+      ],
+      "pronunciation": [
+        "shadowing",
+        "fluent-forever",
+        "pimsleur"
+      ]
+    }
+  }
+}

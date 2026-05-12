@@ -1,0 +1,94 @@
+{% extends "base.html" %}
+
+{% block title %}{{ method.name_zh }} — {{ site.site_title }}{% endblock %}
+{% block desc %}{{ method.core_concept_zh }}{% endblock %}
+
+{% block content %}
+
+<main class="method-detail">
+  <a href="javascript:history.back()" class="back-link">← 返回方法列表</a>
+
+  <div class="method-header">
+    <h1>{{ method.name_zh }}</h1>
+    <div class="name-en">{{ method.name_en }}</div>
+    
+    <div class="method-meta">
+      {% for skill in method.best_for %}
+      <span class="tag tag-skill" style="font-size:0.8rem;padding:5px 14px;">{{ skill }}</span>
+      {% endfor %}
+      <span class="tag tag-difficulty" style="font-size:0.8rem;padding:5px 14px;">📊 {{ method.difficulty_level }}</span>
+      <span class="tag tag-category" style="font-size:0.8rem;padding:5px 14px;">
+        {% for cat in site.categories %}{% if cat.id == method.category %}{{ cat.name_zh }}{% endif %}{% endfor %}
+      </span>
+      <span class="tag" style="font-size:0.8rem;padding:5px 14px;background:#fefce8;color:#a16207;">⭐ 科学证据 {{ method.science_level }}</span>
+    </div>
+
+    <div class="method-intro">{{ method.core_concept_zh }}</div>
+  </div>
+
+  <!-- What it is -->
+  <div class="method-section">
+    <h2><span class="section-icon">📖</span> 方法详解</h2>
+    <p>{{ method.detailed_description_zh }}</p>
+  </div>
+
+  <!-- How to practice -->
+  <div class="method-section">
+    <h2><span class="section-icon">🎯</span> 实践步骤</h2>
+    <ol class="practice-steps">
+      {% set steps = method.how_to_practice_zh.split('；') if '；' in method.how_to_practice_zh else method.how_to_practice_zh.split(';') %}
+      {% for step in steps %}
+      {% set clean_step = step.strip().lstrip('0123456789)）.').strip() %}
+      {% if clean_step %}
+      <li>{{ clean_step }}</li>
+      {% endif %}
+      {% endfor %}
+    </ol>
+  </div>
+
+  <!-- Recommended tools -->
+  {% if method.recommended_tools_zh %}
+  <div class="method-section">
+    <h2><span class="section-icon">🛠</span> 推荐工具</h2>
+    <p>{{ method.recommended_tools_zh }}</p>
+  </div>
+  {% endif %}
+
+  <!-- Time & Difficulty -->
+  <div class="method-section">
+    <h2><span class="section-icon">⏱</span> 学习参数</h2>
+    <p><strong>适合水平：</strong>{{ method.difficulty_level }}</p>
+    <p><strong>时间投入：</strong>{{ method.time_commitment }}</p>
+    <p><strong>最适合训练：</strong>{{ method.best_for|join('、') }}</p>
+  </div>
+
+  <!-- Pros & Cons -->
+  <div class="method-section">
+    <h2><span class="section-icon">⚖️</span> 优缺点</h2>
+    <div class="pros-cons">
+      <div class="pros">
+        <h4>✅ 优点</h4>
+        <p>{{ method.pros_zh }}</p>
+      </div>
+      <div class="cons">
+        <h4>⚠️ 缺点</h4>
+        <p>{{ method.cons_zh }}</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Famous practitioners -->
+  {% if method.famous_practitioners_zh %}
+  <div class="method-section">
+    <h2><span class="section-icon">🌟</span> 成功实践者</h2>
+    <p>{{ method.famous_practitioners_zh }}</p>
+  </div>
+  {% endif %}
+
+  <!-- Navigation -->
+  <div style="text-align:center;margin-top:32px;">
+    <a href="javascript:history.back()" style="display:inline-flex;align-items:center;gap:6px;font-size:0.9rem;font-weight:500;color:var(--link);">← 返回列表</a>
+  </div>
+</main>
+
+{% endblock %}
